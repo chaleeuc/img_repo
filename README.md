@@ -2,7 +2,7 @@
 
 Tries to solve challenge at  [https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit](https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit)
 
-using django framework, I decided to make an ecommerce like application, where admin can add product and related images from backend, where such items will be posted on index pages, and regular users can add them to cart, and pay using paypal.
+using django framework, I decided to make an ecommerce like application, where admin can add product and related images from backend, and regular user can and regular users can add them to cart, and pay using paypal.
 
 Python needs to be installed in ordered to run the application
 
