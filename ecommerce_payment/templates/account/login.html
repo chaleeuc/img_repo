@@ -1,0 +1,33 @@
+{% extends "./sub_base.html" %}
+{% block title %} Login {% endblock %}
+{% block sub_content %}
+
+<!-- Login Form -->
+<form class="account-form" action="{% url 'account:login' %}" method="post">
+    {% csrf_token %}
+    <h3 class="mb-4">Sign In</h3>
+    <!-- form validation -->
+    {% if form.errors %}
+    <div class="alert alert-danger" role="alert">
+        Email or Password is not Correct!
+    </div>
+    {% endif %}
+
+    <!-- login fields -->
+    <label class="form-label">{{ form.username.label }}</label>
+    {{ form.username }}
+
+    <label class="form-label">{{ form.password.label }}</label>
+    {{ form.password }}
+
+    <div class="d-grid gap-2">
+        <input type="hidden" name="next" value="{{ next }}">
+        <button class="btn btn-primary py-2 mb-4 mt-5 fw-bold" type="submit" value="Log-in">Login</button>
+    </div>
+
+    <p class="flex-column justify-content-center text-center pb-3">
+        <a href="{% url 'account:register' %}">Don't have an account?</a>
+    </p>
+</form>
+
+{% endblock %}
