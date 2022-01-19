@@ -68,11 +68,12 @@ def delivery_address(request):
 @login_required
 def payment_selection(request):
     # simple check 
+    ''' got rid of delivery options, no need to check for session data 
     session = request.session
     if 'address' not in session:
         messages.success(request, 'Select a delivery address to purchase')
         return HttpResponseRedirect(request.META['HTTP_REFERER'])
-
+    '''
     context = {}
     return render(request, 'checkout/payment_selection.html', context)
 

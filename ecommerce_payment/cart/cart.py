@@ -85,8 +85,8 @@ class Cart():
     # clear session data, for ordering purpose
     def clear(self):
         del self.session['skey']
-        del self.session['address']
-        del self.session['purchase']
+#        del self.session['address']
+#        del self.session['purchase']
         self.save()
 
     # save session data, if there are any changes 

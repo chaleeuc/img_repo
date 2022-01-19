@@ -20,7 +20,8 @@ urlpatterns = [
 
     # user portals 
     path('dashboard/', views.dashboard, name='dashboard'),
-    path('profile/edit/', views.edit_details, name='edit_details'),
+    # editing user profile not needed at the moment 
+    # path('profile/edit/', views.edit_details, name='edit_details'),
     path('profile/delete_user', views.delete_user, name='delete_user'),
 
     # View, update, delete addresses

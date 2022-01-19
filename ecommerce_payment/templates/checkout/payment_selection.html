@@ -24,12 +24,16 @@
                 </div>
             </div>
 
+            {% comment %}
+            NO SHIPPING            
             <div class="d-flex bd-highlight">
                 <div class="p-2 flex-grow-1 bd-highlight">Delivery Cost:</div>
                 <div class="p-2 bd-highlight"><span class="fw-bold h5">$</span><span id="delivery_price"
                         class="fw-bold h5">{{ cart.get_delivery_price }}</span>
                 </div>
             </div>
+            {% endcomment %}
+
 
             <div class="d-flex bd-highlight">
                 <div class="p-2 flex-grow-1 bd-highlight">Total:</div>

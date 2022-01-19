@@ -35,6 +35,7 @@
             </div>
         </a>
     </div>
+    {% comment %}
     <div class="col">
         <a href="{% url "account:edit_details" %}" class="text-reset text-decoration-none" role="button"
             style="max-width: 540px;">
@@ -60,6 +61,8 @@
             </div>
         </a>
     </div>
+    {% endcomment %}
+    {% comment %}
     <div class="col">
         <a href="{% url "account:address" %}" class="text-reset text-decoration-none" role="button"
             style="max-width: 540px;">
@@ -83,7 +86,7 @@
             </div>
         </a>
     </div>
-
+    {% endcomment %}
 </div>
 
 {% endblock %}
