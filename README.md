@@ -2,7 +2,7 @@
 
 Tries to solve challenge at  [https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit](https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit)
 
-using django framework, I decided to make an ecommerce like application, where admin can add product and related images from backend, and regular user can and regular users can add them to cart, and pay using paypal.
+using django framework, I decided to make an ecommerce like application, where admin can add product and related images from backend, and regular user can and regular users can add them to cart, and pay for them using paypal.
 
 Python needs to be installed in ordered to run the application
 
@@ -30,3 +30,9 @@ Python needs to be installed in ordered to run the application
 	- sandbox account: <span>sb-1a1hi12017074<span>@personal.example.com</span></span>
 	- sandbox password: 1U%bY22:  
 5. if payment is successful, user will be able to notice post status on console, and see the order shown up on dashboard/orders
+
+Snippets
+
+<img src="https://user-images.githubusercontent.com/88257716/150234273-679865ed-f639-4c02-953b-dbd649dd505a.png" width="280" height="400"> <img src="https://user-images.githubusercontent.com/88257716/150234538-87abc0a3-6330-4e25-bbe7-61627134dcd9.png" width="280" height="400"> <img src="https://user-images.githubusercontent.com/88257716/150234477-54c47bbe-9007-4913-9417-24d2e9b8fab8.png" width="280" height="400">
+
+
