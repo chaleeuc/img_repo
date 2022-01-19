@@ -16,12 +16,12 @@ Python needs to be installed in ordered to run the application
 
 1. Since the application is running on local server, we need to set up database by running python manage.py makemigrations, then python manage.py migrate 
 2. Application is not equipped to add images from frontend, yet.. you will require an admin user to access the backpage and add the item/images manually for now 
-	2.1. create superuser using python manage.py createsuperuser 
-	2.2. now you can access the database and add items and images at localhost:8000/admin/ (slash is required at the end of admin, login using email used for signup) 
-3. Add @ Shop categories, product type, and product 
-	3.1. there are stock wedding photos in sample_images folder 
-	3.2. while setting up products, one of the image will need to be set as featured (click on the top one), for item to shown up on the index of webpage 
-	3.3. Once images are added, images files will be moved to media/images folder to be accessed from the website, if the application is deployed, we can set up the application to use amazon s3 to securely store the images 
+3. Create superuser using python manage.py createsuperuser 
+4. You can access the database and add items and images at localhost:8000/admin/ (slash is required at the end of admin) 
+5. Once in admin page, create categories, product type, and product
+	- there are stock wedding photos in sample_images folder 
+	- while setting up products, one of the image will need to be set as featured (click on the top one), for item to shown up on the index of webpage 
+	- Once images are added, images files will be moved to media/images folder to be accessed from the website, if the application is deployed, we can set up the application to use amazon s3 to securely store the images 
 	
 ## Setting up user / And payment process
 1. Users can register, and login to the application, its fine to use the admin user as well 
